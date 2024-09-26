@@ -29,7 +29,7 @@ r.onload = () => {
                 <div class="card">
             <img src="${product.thumbnail}" alt="">
             <h3>${product.title}</h3>
-            <p>
+            <p class="description">
                 ${product.description}.
             </p>
             <p>price: <span class="price">${product.price}$</span></p>
