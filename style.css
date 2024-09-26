@@ -147,7 +147,7 @@ footer{
     color: #F5F5F7;
     font-weight: bold;
     grid-area: footer;
-    height: 10svh;
+    height: 9svh;
     display: flex;
     justify-content: center;
     align-items: center;
