@@ -108,7 +108,7 @@ aside ul h4:hover{
     display: flex;
     flex-direction: column;
     gap: 15px;
-    justify-content: space-evenly;
+    justify-content: space-between;
     padding: 20px;
     border-radius: 10px;
     -webkit-border-radius: 10px;
