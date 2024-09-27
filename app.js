@@ -75,3 +75,15 @@ function getByCategory(category){
     r.open("GET", `https://dummyjson.com/products/category/${category}`, true)
     r.send()
 }
+
+getByCategory("home-decoration")
+
+
+//https://dummyjson.com/products/search?q=bag
+let searchField = document.querySelector(".search");
+function search(category){
+    let searchvalue = searchField.value
+    productsSection.innerHTML =""
+    r.open("GET", `https://dummyjson.com/products/search?q=${searchvalue}`, true)
+    r.send()
+}

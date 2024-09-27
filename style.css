@@ -41,6 +41,18 @@ ul{
     align-items: center;
     font-weight: bold;
 }
+.search{
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+
+    height: 30px;
+    margin-left: 10px;
+    padding: 5px;
+    box-shadow: 0 0 20px #705C53;
+}
 main{
     grid-area: main;
 }
